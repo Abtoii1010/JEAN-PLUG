@@ -103,7 +103,13 @@ h2 {
   .heading {
     margin-left: 32px;
     width: 80%;
-    margin-top: 100px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .heading {
+    margin-top: -27px;
   }
 }
 
@@ -212,10 +218,46 @@ h2 {
 
   #shop,
   #exp {
-    font-size: 24px;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+
+  #shop a,
+  #exp a {
+    font-size: 12px;
+    padding: 3px;
   }
 
   #nav1 a {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  .heading {
+    margin-left: 2px;
+  }
+  .buttons {
+    margin-left: 2px;
+  }
+
+  #exp {
+    margin-right: 12px;
+  }
+
+  #shop a,
+  #exp a {
+    font-size: 19px;
+  }
+
+  #shop,
+  #exp {
+    border-radius: 3px;
+    padding: 4px;
+    font-size: 12px;
+  }
+
+  #nav1 a {
+    font-size: 12px;
   }
 }
