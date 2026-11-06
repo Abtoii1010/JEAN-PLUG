@@ -1,0 +1,42 @@
+body {
+  box-sizing: border-box;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  background-color: green;
+}
+
+#input1 {
+  text-align: center;
+  width: 100%;
+}
+
+input {
+  width: 400px;
+  border: none;
+  padding: 18px;
+  border-radius: 14px;
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+button {
+  padding: 12px 12px;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+#chart {
+  text-align: center;
+}

@@ -1,0 +1,89 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+i {
+  font-size: 2rem;
+  text-align: center;
+  margin-right: 12px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: hotpink;
+}
+
+a {
+  text-decoration: none;
+}
+
+.whatsapp,
+.email,
+.tiktok,
+.location {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.whatsapp {
+  color: green;
+}
+
+.email i {
+  color: red;
+}
+
+.location i {
+  color: blue;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+input {
+  margin-left: 22%;
+  font-size: 2rem;
+  padding: 24px 62px;
+  padding-left: 12px;
+}
+
+input:first-child {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+button {
+  margin-left: 36%;
+}
+
+input[type="email"] {
+  margin-bottom: 62px;
+}
+
+button {
+  font-size: 2.5rem;
+  padding: 16px 64px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(131, 33, 131);
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(163, 0, 163);
+  color: aliceblue;
+  box-shadow: 2px 2px 2px rgb(223, 222, 222);
+}
+
+button:active {
+  box-shadow: 4px 4px 5px rgba(223, 222, 222, 0.726);
+}

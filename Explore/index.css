@@ -1,0 +1,42 @@
+body {
+  border: 0;
+  box-sizing: border-box;
+}
+
+#Men {
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  object-fit: cover;
+  background-image: url(markus-winkler-PQmXUxmfR44-unsplash.jpg);
+}
+
+#Mens {
+  display: flex;
+  padding-top: 120px;
+  margin-top: 30px;
+  align-self: center;
+  font-size: 100px;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+#Women {
+  width: 100%;
+  height: 40vh;
+  background-image: url(sidharth-sabu-h3mYdW41R1o-unsplash.jpg);
+  object-fit: cover;
+  background-position: 50% 60%;
+}
+
+#Womens {
+  display: flex;
+  padding-top: 120px;
+  margin-top: 30px;
+  align-self: center;
+  font-size: 100px;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}

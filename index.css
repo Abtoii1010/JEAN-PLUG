@@ -1,0 +1,221 @@
+body {
+  box-sizing: border-box;
+  background-image: url(sidharth-sabu-h3mYdW41R1o-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "Black Ops One", system-ui;
+  border: none;
+  font-size: 32px;
+}
+
+#nav1 {
+  display: grid;
+  text-align: center;
+  background-color: black;
+  border-radius: 32px;
+  column-gap: 32px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* .div1 {
+  background-image: url(sidharth-sabu-h3mYdW41R1o-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.heading {
+  width: 50%;
+  margin-top: 128px;
+  margin-left: 64px;
+}
+
+h1 {
+  font-size: 100px;
+  color: pink;
+}
+
+h2 {
+  font-size: 50px;
+  color: pink;
+}
+
+#exp {
+  font-size: 52px;
+  cursor: pointer;
+  border-radius: 14px;
+  border: none;
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+  background-color: hsl(350, 77%, 28%);
+  margin-right: 24px;
+  transition: all 0.6s;
+}
+
+#shop {
+  font-size: 52px;
+  cursor: pointer;
+  border-radius: 14px;
+  border: none;
+  padding: 4px;
+  color: white;
+  font-weight: bold;
+  background-color: pink;
+  transition: all 0.6s;
+}
+
+#exp:hover {
+  background-color: hsl(350, 77%, 48%);
+  box-shadow: 4px 5px 4px #fff;
+}
+
+#shop:hover {
+  background-color: hsl(350, 100%, 68%);
+  box-shadow: 4px 5px 4px #fff;
+}
+
+#exp a {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  font-size: 52px;
+  transition: all 0.6s;
+}
+
+#shop a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 52px;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  body {
+    min-height: 100vh;
+    height: auto;
+  }
+
+  .heading {
+    margin-left: 32px;
+    width: 80%;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .heading h1 {
+    font-size: 80px;
+  }
+
+  .heading h2 {
+    font-size: 42px;
+  }
+
+  #exp a {
+    font-size: 42px;
+    padding: 4px;
+  }
+
+  #shop a {
+    font-size: 42px;
+    padding: 4px;
+  }
+}
+
+@media (max-width: 760px) {
+  .heading {
+    margin-left: 24px;
+    margin-top: 60px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 676px) {
+  #exp a {
+    font-size: 32px;
+    padding: 3px;
+  }
+  #shop a {
+    font-size: 32px;
+    padding: 3px;
+  }
+}
+
+@media (max-width: 550px) {
+  .heading {
+    width: 100%;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  .heading h1 {
+    font-size: 64px;
+  }
+
+  .heading h2 {
+    font-size: 32px;
+  }
+
+  #exp a {
+    font-size: 36px;
+  }
+
+  #nav1 a {
+    font-size: 24px;
+  }
+
+  .buttons {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 505px) {
+  .heading h1 {
+    font-size: 54px;
+  }
+
+  .heading h2 {
+    font-size: 32px;
+  }
+  #exp {
+    font-size: 36px;
+  }
+  #exp a {
+    font-size: 24px;
+  }
+
+  #shop {
+    font-size: 36px;
+  }
+  #shop a {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading {
+    margin-top: 50%;
+    margin-left: 8px;
+  }
+  .heading h1 {
+    font-size: 36px;
+  }
+
+  .heading h2 {
+    font-size: 24px;
+    margin-bottom: 64px;
+  }
+
+  #shop,
+  #exp {
+    font-size: 24px;
+  }
+
+  #nav1 a {
+    font-size: 18px;
+  }
+}
