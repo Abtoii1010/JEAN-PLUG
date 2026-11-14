@@ -8,7 +8,6 @@ nav {
   justify-content: center;
   align-items: center;
   height: 7vh;
-  background-color: green;
 }
 
 #input1 {
@@ -38,5 +37,37 @@ button {
 }
 
 #chart {
-  text-align: center;
+  text-align: end;
+  position: relative;
+}
+
+#chart i {
+  padding-right: 24px;
+  font-size: 24px;
+}
+
+.number {
+  position: absolute;
+  top: -32px;
+  color: white;
+  right: 23px;
+  background-color: red;
+  font-weight: bold;
+  padding: 2px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+#profile i {
+  padding-left: 24px;
+  font-size: 28px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+  width: 400px;
 }
