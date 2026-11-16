@@ -194,3 +194,15 @@ main img {
     margin-left: 15px;
   }
 }
+
+@media (max-width: 770px) {
+  #cart {
+    margin-left: -7px;
+  }
+}
+
+@media (max-width: 600px) {
+  #cart {
+    margin-left: -6px;
+  }
+}
